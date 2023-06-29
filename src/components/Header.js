@@ -11,10 +11,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-// Key:
-// 2ec69074cf9533e98a87c79d0a548a0e
-
-// Secret:
-// d67602e7bc17c442

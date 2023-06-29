@@ -9,11 +9,6 @@ const ImageContainer = () => {
     const { images, fetchImages, isLoading, currentSearch, moreSearchResult, updatePage, page } = useImage();
 
     const handleScroll = () => {
-        // if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.scrollHeight - 1) {
-        //     // currentSearch ? moreSearchResult(currentSearch) : fetchImages();
-        //     updatePage();
-        // }
-        // fetchImages();
         if (window.innerHeight + document.documentElement.scrollTop + 1 >=
             document.documentElement.scrollHeight)
             updatePage();
